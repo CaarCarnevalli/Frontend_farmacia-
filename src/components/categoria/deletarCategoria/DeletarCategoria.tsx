@@ -18,7 +18,7 @@ function DeletarCategoria() {
 
   /*  async function buscarPorId(id: string) {
         try {
-            await buscar(`/temas/${id}`, setTema, {
+            await buscar(`/temas/${id}`, setCategoria, {
                 headers: {
                     'Authorization': token
                 }

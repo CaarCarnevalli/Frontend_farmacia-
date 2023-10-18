@@ -48,7 +48,7 @@ function FormularioCategoria() {
           }
         })
 
-      alert('Tema atualizado com sucesso')
+      alert('Categoria atualizado com sucesso')
         retornar()
 
       } catch (error: any) {
@@ -56,7 +56,7 @@ function FormularioCategoria() {
          alert('O token expirou, favor logar novamente')
           handleLogout()
         } else {
-          alert('Erro ao atualizar o Tema')
+          alert('Erro ao atualizar o Categoria')
         }
 
       }
